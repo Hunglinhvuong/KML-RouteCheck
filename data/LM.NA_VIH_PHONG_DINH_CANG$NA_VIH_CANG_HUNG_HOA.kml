@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>NA_VIH_CANG_HUNG_HOA-NA_VIH_PHONG_DINH_CANG.kml</name>
+    <Placemark>
+        <name>Tuyen_Cap_Chuan_Hoa</name>
+        <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>105.70064,18.6682,0
+105.70075,18.66823,0
+105.70015,18.66896,0
+105.69946,18.67169,0
+105.69971,18.6717,0
+105.69967,18.67205,0
+105.70299,18.67199,0
+105.70303,18.67174,0
+105.70855,18.67168,0
+105.7092,18.67157,0
+105.7095,18.67142,0
+105.71183,18.6696,0
+105.71263,18.66893,0
+105.71431,18.67031,0
+105.71511,18.66952,0
+105.7154,18.66973,0</coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

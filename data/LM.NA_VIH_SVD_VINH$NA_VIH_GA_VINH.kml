@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>NA_VIH_GA_VINH-NA_VIH_SVD_VINH.kml</name>
+    <Placemark>
+        <name>Tuyen_Cap_Chuan_Hoa</name>
+        <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>105.66737,18.67128,0
+105.66744,18.67146,0
+105.66718,18.67149,0
+105.66479,18.67293,0
+105.66515,18.68242,0
+105.66519,18.68427,0
+105.66565,18.68742,0
+105.67018,18.68696,0
+105.67019,18.68664,0</coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>NA_NGHIA_BINH - NA_NAD_NGHIA_BINH_3.kml</name>
+    <Placemark>
+        <name>Tuyen_Cap_Chuan_Hoa</name>
+        <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>105.48663040068,19.33320246276645,0
+105.4868027216453,19.3336043395541,0
+105.4877838395694,19.33299775464289,0
+105.4900634513612,19.3361975901257,0
+105.4926393100799,19.33967437865464,0
+105.4935666441521,19.33897284129021,0
+105.4936562884096,19.33929123769326,0</coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

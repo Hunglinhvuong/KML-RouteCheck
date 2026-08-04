@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  kml-bot:
+    build: .
+    container_name: kml-route-checker
+    restart: always
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - ALLOWED_CHAT_IDS=${ALLOWED_CHAT_IDS}
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - MYMAP_ID=${MYMAP_ID}
+    volumes:
+      - ./data:/app/data:ro
+      - ./logs:/app/logs
+    networks:
+      - default
+    healthcheck:
+      test: ["CMD", "python", "-c", "import telegram; print('OK')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+    labels:
+      - "com.example.description=KML Route Checker Bot"
+      - "com.example.version=1.0.0"
+
+networks:
+  default:
+    name: kml-network

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>NA_NLC_NGHI_LONG_4-NA_NLC_CN_NAM_CAM.kml</name>
+    <Placemark>
+        <name>Tuyen_Cap_Chuan_Hoa</name>
+        <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>105.6632246511311,18.8020049469319,0
+105.6608616704813,18.80262979645516,0
+105.6587926761794,18.80312851595491,0
+105.6570334307182,18.80346380650927,0
+105.6555117966256,18.80403812280721,0
+105.6563450984272,18.8065741214364,0
+105.6570683623912,18.80856667156551,0
+105.6577392137107,18.80991103752288,0
+105.6571974806162,18.81094153854762,0</coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>NA_CLO_NGHI_HUONG_3-NA_CLO_CUA_LO.kml</name>
+    <Placemark>
+        <name>Tuyen_Cap_Chuan_Hoa</name>
+        <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>105.7243452036874,18.80565017345699,0
+105.7242253624076,18.80530759269288,0
+105.7238416308838,18.80506997651088,0
+105.7260417663998,18.80116227323299,0
+105.7266901114251,18.80149303175149,0
+105.726703953141,18.80125696638035,0
+105.7274478824739,18.79976571952172,0
+105.7276177940637,18.79984802168109,0
+105.7274296441094,18.80012207333815,0</coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

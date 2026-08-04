@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>NA_YTH_TT_YEN_THANH-NA_YTH_HOA_THANH.kml</name>
+    <Placemark>
+        <name>Tuyen_Cap_Chuan_Hoa</name>
+        <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>105.47143,18.99881,0
+105.47163,18.99885,0
+105.47169,18.99847,0
+105.47342,18.99892,0
+105.47497,18.99916,0
+105.47589,18.99925,0
+105.47934,18.99889,0
+105.48145,18.99986,0
+105.48299,18.99961,0
+105.48433,18.99995,0
+105.48759,19.00036,0
+105.49011,19.00063,0
+105.49254,19.00084,0
+105.49461,19.00095,0
+105.4958,19.00119,0
+105.49623,19.00026,0
+105.49665,18.99924,0
+105.49701,18.9994,0</coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

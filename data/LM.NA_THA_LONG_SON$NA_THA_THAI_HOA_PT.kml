@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>NA_THA_LONG_SON-NA_THA_THAI_HOA_PT.kml</name>
+    <Placemark>
+        <name>Tuyen_Cap_Chuan_Hoa</name>
+        <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>105.42866,19.3107,0
+105.4286,19.31195,0
+105.42847,19.31205,0
+105.42849,19.31504,0
+105.42857,19.31758,0
+105.42866,19.32055,0
+105.42825,19.32039,0</coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>

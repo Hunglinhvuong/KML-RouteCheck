@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>NA_CLO_HAI_BANG-NA_NLC_NGHI_HOP.kml</name>
+    <Placemark>
+        <name>Tuyen_Cap_Chuan_Hoa</name>
+        <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>105.69916,18.82567,0
+105.69904,18.82575,0
+105.6993,18.82601,0
+105.7008,18.82405,0
+105.7009,18.82379,0
+105.70026,18.82322,0
+105.70001,18.82282,0
+105.69983,18.8223,0
+105.69973,18.82193,0
+105.69977,18.82073,0
+105.6999,18.81864,0
+105.70016,18.81619,0
+105.70033,18.81451,0
+105.7006,18.8145,0
+105.70075,18.81301,0
+105.70387,18.81477,0
+105.70404,18.81454,0
+105.70415,18.81451,0</coordinates>
+        </LineString>
+    </Placemark>
+</Document>
+</kml>
