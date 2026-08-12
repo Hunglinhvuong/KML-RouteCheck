@@ -20,9 +20,17 @@ async def handle_khoangcach(update, context, sessions):
             "⚠️ Khoảng cách quá nhỏ (tối thiểu 100m)."
         )
         return None
+    
+    if D > 4000:
+        num_blocks = D // 4000
+        adjusted_d = D - (num_blocks * 100)
+        final_distance = adjusted_d / 1.03
+    else:
+        final_distance = (D - 30) / 1.02
 
     return {
         "route_file": session["route"],
-        "distance": (D-30)/1.02,
+        "distance": final_distance,
         "distance_goc": D
     }
+
