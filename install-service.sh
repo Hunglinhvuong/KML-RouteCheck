@@ -5,9 +5,6 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SERVICE_NAME="kml-route-checker"
-SERVICE_USER="telebot"
-SERVICE_GROUP="telebot"
-SERVICE_HOME="$SCRIPT_DIR"
 
 echo "========================================="
 echo "📦 Installing $SERVICE_NAME as Systemd Service"
@@ -19,14 +16,24 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-# 1. Create service user if not exists
+# Keep the service unprivileged: install it via sudo from the regular account
+# that should own and run the bot.
+if [ -z "${SUDO_USER:-}" ] || [ "$SUDO_USER" = "root" ]; then
+    echo "❌ Run this script from a regular user with: sudo ./install-service.sh"
+    exit 1
+fi
+
+SERVICE_USER="$SUDO_USER"
+SERVICE_GROUP="$(id -gn "$SERVICE_USER")"
+
+# 1. Validate the service user
 echo ""
-echo "1️⃣  Creating service user..."
+echo "1️⃣  Checking service user..."
 if id "$SERVICE_USER" &>/dev/null; then
-    echo "✅ User $SERVICE_USER already exists"
+    echo "✅ Service will run as $SERVICE_USER:$SERVICE_GROUP"
 else
-    useradd --system --home "$SERVICE_HOME" --shell /bin/bash "$SERVICE_USER"
-    echo "✅ Created user $SERVICE_USER"
+    echo "❌ User $SERVICE_USER does not exist"
+    exit 1
 fi
 
 # 2. Set permissions
