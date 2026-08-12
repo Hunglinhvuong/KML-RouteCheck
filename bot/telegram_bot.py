@@ -136,6 +136,7 @@ async def khoangcach(update: Update, context: ContextTypes.DEFAULT_TYPE):
             return
 
         route_file = result["route_file"]
+        D = result["distance_goc"]
         D = result["distance"]
 
         kml_path = resolve_data_path(route_file)
