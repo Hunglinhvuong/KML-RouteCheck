@@ -136,7 +136,7 @@ async def khoangcach(update: Update, context: ContextTypes.DEFAULT_TYPE):
             return
 
         route_file = result["route_file"]
-        D = result["distance_goc"]
+        D_goc = result["distance_goc"]
         D = result["distance"]
 
         kml_path = resolve_data_path(route_file)
@@ -152,7 +152,7 @@ async def khoangcach(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         msg = (
             f"🛣️ <b>Tuyến:</b> {start_name} → {end_name}\n"
-            f"📏 <b>Khoảng cách:</b> {int(D)} m\n\n"
+            f"📏 <b>Khoảng cách:</b> {int(D_goc)} m\n\n"
             f"▶️ <b>Từ điểm {start_name}:</b>\n"
             f"<code>{p_start[0]:.6f}, {p_start[1]:.6f}</code>\n"
             f"🧭 <b>Dẫn đường Google Maps:</b>\n"
